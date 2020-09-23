@@ -188,7 +188,7 @@ label[for="drop-nav"] {
     object-fit: cover;
 }
 
-.portfolio-wrapper .portfolio-item img h3 {
+.portfolio-wrapper .portfolio-item h3 {
     /*koregujemy text w paragraf h3 [text w foto]*/
     position: absolute;
     top: 0;
@@ -206,7 +206,7 @@ label[for="drop-nav"] {
     transition: all .3s;
 }
 
-.portfolio-wrapper .portfolio-item img h3:hover {
+.portfolio-wrapper .portfolio-item h3:hover {
     opacity: 1;
 }
 
@@ -307,11 +307,9 @@ label[for="drop-nav"] {
     .menu-nav ul {
         display: none;
     }
-
-    #drop-nav:checked + ul {
+    #drop-nav:checked+ul {
         display: block;
     }
-
     .menu-nav ul .menu-item {
         display: block;
         text-align: right;
